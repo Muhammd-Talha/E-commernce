@@ -1,0 +1,337 @@
+/* ......................HEADER CSS................  */
+.nav-ul li {
+  display: inline-block;
+  padding: 18px;
+}
+
+.nav-ul .ancho-r {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.acti-ve .active {
+  color: black;
+  text-decoration: underline;
+  /* border-bottom: 1px solid black; */
+  text-underline-offset: 10px;
+}
+
+/* ......................HEADER CSS................  */
+
+.for-m {
+  /* width: 98.7%; */
+  width: 95%;
+}
+
+.shado-w {
+  width: 450px;
+  margin: auto;
+}
+.ellipse{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 250px;
+}
+
+.for-m {
+  text-align: center;
+}
+
+.styl-e {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.butto-n {
+  border: none;
+  background-color: skyblue;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.butto-n:focus {
+  border: none;
+  outline: none;
+}
+
+.right-style {
+  text-align: right;
+  margin-right: 20px;
+}
+
+th {
+  font-size: 20px;
+}
+
+.img-styling img {
+  width: 60px;
+  height: 50px;
+  /* border-radius: 50%; */
+  border-radius: 0px 100px 200px 50px;
+  margin-top: 6px;
+  margin-left: 30px;
+  float: left;
+}
+
+span {
+  color: red;
+  font-size: 13px;
+}
+
+.heading p {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.shado-w:focus {
+  box-shadow: none;
+}
+
+.inpu-t {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.inpu-t input {
+  height: 37px;
+  width: 350px;
+  border: 2px solid skyblue;
+  padding-left: 8px;
+  margin-bottom: 25px;
+}
+
+
+/* css online button  */
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 10px 10px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+/* css online button  */
+.inpu-t input:focus {
+  outline: none;
+}
+
+/* ................FOOTER CSS............ */
+.fo-ter {
+  margin-top: 70px;
+}
+
+.footer {
+
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: skyblue;
+  padding: 20px;
+}
+
+.foot-er {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-er label {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.foot-er li {
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+}
+
+.horizontal {
+  border: 5px solid skyblue;
+  border-radius: 50%;
+}
+
+.foot-er li {
+  line-height: 30px;
+}
+
+.foot-er li {
+  list-style-type: none;
+}
+
+.list-icons{
+  padding-left: 70px;
+}
+.list-icons ul{
+  list-style-type: none;
+}
+.right-styled li{
+  list-style-type: none;
+}
+.right-styled .child{
+  text-decoration: none;
+}
+
+.list-icons li {
+  margin-right: 8px;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+}
+
+/* ................FOOTER CSS............ */
+/* PROFILE PAGE  */
+.product h2 {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.i-mage img {
+  margin-right: 10px;
+  object-fit: contain;
+  background-color: black;
+}
+
+.Flexible {
+  display: flex;
+  align-items: center;
+}
+
+.margi-n {
+  margin-right: 10px;
+}
+
+p {
+  color: gray;
+}
+
+.text-danger {
+  text-decoration: line-through;
+}
+
+.styling {
+  display: flex;
+  justify-content: end;
+  margin-top: -55px;
+}
+
+.iocns {
+  font-size: 35px;
+  color: white;
+  display: flex;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.sidebar-style {
+  width: 270px;
+  height: 500px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.btn-close {
+  background-color: skyblue;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+@media screen and (max-width:575.9px) {
+  .shado-w {
+    width: 250px;
+  }
+
+  .list {
+    padding-left: 25px;
+  }
+
+  .inpu-t input {
+    width: 250px;
+  }
+
+  /* .hide {
+    display: none;
+  } */
+
+}
+
+@media screen and (max-width:767.9px) {
+  .hidden-property {
+    display: none;
+  }
+
+  .responsive-link {
+    margin-right: 70px;
+  }
+  .imag-es img{
+    object-fit: scale-down;
+  }
+}
+@media screen and (max-width:991.9px) {
+  .imag-es img{
+    object-fit: scale-down;
+  }
+  
+}
